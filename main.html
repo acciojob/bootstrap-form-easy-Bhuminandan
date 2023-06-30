@@ -21,26 +21,26 @@
 		<div class="row p-3">
 			<div class="col-md-4">
 				<label for="first-name-input" class="form-label">First Name</label>
-			  <input type="text" class="form-control" id="first-name-input" aria-label="First name">
+			  <input type="text" class="form-control" id="first-name-input" required aria-label="First name" required>
 			</div>
 			<div class="col-md-4">
 				<label for="last-name-input" class="form-label">Last Name</label>
-			  <input type="text" class="form-control" id="last-name-input" aria-label="Last name">
+			  <input type="text" class="form-control" id="last-name-input" required aria-label="Last name" required>
 			</div>
 			<div class="col-md-4">
-			  <label for="email-input" class="form-label">Email</label>
-			  <input type="email" class="form-control" id="email-input" placeholder="xyz@abc.com">
+			  <label for="email-input" class="form-label">Email Address</label>
+			  <input type="email" class="form-control" id="email-input" placeholder="xyz@abc.com" required>
 			</div>
 		  </div>
 
 		  <div class="row p-3">
 			<div class="col-md-6">
 				<label for="college-input" class="form-label">Collage</label>
-				<input type="text" class="form-control" id="college-input" aria-label="Collage Name">
+				<input type="text" class="form-control" id="college-input" aria-label="Collage Name" required>
 			</div>
 			<div class="col-md-3 align-middle">
-				<label for="graduation-year" class="form-label">Graduation Year</label>
-				<select class="form-select" id="graduation-year" aria-label="Default select example">
+				<label for="grad-year-select" class="form-label">Graduation Year</label>
+				<select class="form-select" id="grad-year-select" aria-label="Default select example" required>
 					<option selected>Choose</option>
 					<option value="2020">2020</option>
 					<option value="2021">2021</option>
@@ -49,14 +49,14 @@
 				  </select>
 			</div>
 			<div class="col-md-3">
-			  <label for="roll-no-input" class="form-label">Email</label>
-			  <input type="number" class="form-control" id="roll-no-input" placeholder="xyz@abc.com">
+			  <label for="roll-no-input" class="form-label">Roll No.</label>
+			  <input type="number" class="form-control" id="roll-no-input" required>
 			</div>
 		  </div>
 
 		  <div class="row m-1">
 			<div class="tacbox">
-				<input id="checkbox" type="checkbox" />
+				<input id="checkbox" type="checkbox" required/>
 				<label for="checkbox"> Agree to terms and conditions</label>
 			  </div>
 		  </div>
